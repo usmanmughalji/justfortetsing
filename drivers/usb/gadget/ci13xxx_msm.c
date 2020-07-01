@@ -4,7 +4,7 @@
  * it under the terms of the GNU General Public License version 2 and
  * only version 2 as published by the Free Software Foundation.
  */
-
+#pragma GCC diagnostic ignored "-Wunused-label" 
 #include <linux/module.h>
 #include <linux/platform_device.h>
 #include <linux/pm_runtime.h>
